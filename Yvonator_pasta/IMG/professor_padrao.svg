@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <rect width="600" height="600" rx="36" fill="#362344"/>
+  <rect x="10" y="10" width="580" height="580" rx="30" fill="none" stroke="#d4b348" stroke-width="5"/>
+  <circle cx="300" cy="202" r="87" fill="#c5add4"/>
+  <path d="M126 465v-14c0-86 72-150 174-150s174 64 174 150v14z" fill="#c5add4"/>
+  <text x="300" y="538" text-anchor="middle" font-family="sans-serif" font-size="28" fill="#f5e7f7">Foto ainda não cadastrada</text>
+</svg>
