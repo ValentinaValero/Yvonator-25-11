@@ -1,0 +1,291 @@
+{
+  "personagens": [
+    {
+      "nome": "Ageane Rogovski",
+      "faixa_idade": "30-49",
+      "filhos": "sim",
+      "viajou_para_fora": "nao",
+      "nasceu_em_outro_estado_ou_cidade": "sim"
+    },
+    {
+      "nome": "Amanda de Lima",
+      "faixa_idade": "30-49",
+      "filhos": "sim",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "sim"
+    },
+    {
+      "nome": "Ana Paula",
+      "faixa_idade": "50-59",
+      "filhos": "sim",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "sim"
+    },
+    {
+      "nome": "Ana Helena",
+      "faixa_idade": "30-49",
+      "filhos": "sim",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "nao"
+    },
+    {
+      "nome": "Anderson Boganika",
+      "faixa_idade": "30-49",
+      "filhos": "sim",
+      "viajou_para_fora": "nao",
+      "nasceu_em_outro_estado_ou_cidade": "nao"
+    },
+    {
+      "nome": "Anderson Luiz",
+      "faixa_idade": "30-49",
+      "filhos": "sim",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "sim"
+    },
+    {
+      "nome": "Anne Maiara",
+      "faixa_idade": "30-49",
+      "filhos": "nao",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "sim"
+    },
+    {
+      "nome": "Antonia Dirce",
+      "faixa_idade": "60-69",
+      "filhos": "sim",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "sim"
+    },
+    {
+      "nome": "Arthur Carneiro",
+      "faixa_idade": "20-29",
+      "filhos": "nao",
+      "viajou_para_fora": "nao",
+      "nasceu_em_outro_estado_ou_cidade": "sim"
+    },
+    {
+      "nome": "Bárbara Cristina",
+      "faixa_idade": "30-49",
+      "filhos": "nao",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "nao"
+    },
+    {
+      "nome": "Cleber Dias",
+      "faixa_idade": "30-49",
+      "filhos": "sim",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "nao"
+    },
+    {
+      "nome": "Cristiane de Augustinho",
+      "faixa_idade": "50-59",
+      "filhos": "sim",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "nao"
+    },
+    {
+      "nome": "Edgar",
+      "faixa_idade": "70-79",
+      "filhos": "sim",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "sim"
+    },
+    {
+      "nome": "Eliza Loechel",
+      "faixa_idade": "50-59",
+      "filhos": "sim",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "sim"
+    },
+    {
+      "nome": "Fábio Ferreira",
+      "faixa_idade": "30-49",
+      "filhos": "sim",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "nao"
+    },
+    {
+      "nome": "Fernando Schneider",
+      "faixa_idade": "60-69",
+      "filhos": "sim",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "sim"
+    },
+    {
+      "nome": "Gabriel Marques",
+      "faixa_idade": "20-29",
+      "filhos": "nao",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "nao"
+    },
+    {
+      "nome": "Gilberto Rineldi",
+      "faixa_idade": "30-49",
+      "filhos": "sim",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "nao"
+    },
+    {
+      "nome": "Hugo Criazeli",
+      "faixa_idade": "30-49",
+      "filhos": "nao",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "sim"
+    },
+    {
+      "nome": "Jaine Stefhane",
+      "faixa_idade": "30-49",
+      "filhos": "sim",
+      "viajou_para_fora": "nao",
+      "nasceu_em_outro_estado_ou_cidade": "nao"
+    },
+    {
+      "nome": "Jonas José Berra",
+      "faixa_idade": "30-49",
+      "filhos": "nao",
+      "viajou_para_fora": "nao",
+      "nasceu_em_outro_estado_ou_cidade": "sim"
+    },
+    {
+      "nome": "Jose Francisco",
+      "faixa_idade": "20-29",
+      "filhos": "nao",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "nao"
+    },
+    {
+      "nome": "José Roberto",
+      "faixa_idade": "30-49",
+      "filhos": "sim",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "sim"
+    },
+    {
+      "nome": "Juliana Pereira da Silva",
+      "faixa_idade": "30-49",
+      "filhos": "nao",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "nao"
+    },
+    {
+      "nome": "Leonardo Wiltzki",
+      "faixa_idade": "20-29",
+      "filhos": "nao",
+      "viajou_para_fora": "nao",
+      "nasceu_em_outro_estado_ou_cidade": "nao"
+    },
+    {
+      "nome": "Letícia Stier",
+      "faixa_idade": "30-49",
+      "filhos": "sim",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "nao"
+    },
+    {
+      "nome": "Lilian Zeglin",
+      "faixa_idade": "30-49",
+      "filhos": "sim",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "nao"
+    },
+    {
+      "nome": "Luis Henrique",
+      "faixa_idade": "30-49",
+      "filhos": "sim",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "nao"
+    },
+    {
+      "nome": "Maira Makley",
+      "faixa_idade": "30-49",
+      "filhos": "sim",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "sim"
+    },
+    {
+      "nome": "Marcos Alberto do Nascimento",
+      "faixa_idade": "20-29",
+      "filhos": "nao",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "sim"
+    },
+    {
+      "nome": "Milena Novacki",
+      "faixa_idade": "50-59",
+      "filhos": "sim",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "nao"
+    },
+    {
+      "nome": "Ricardo Mario Baptista",
+      "faixa_idade": "30-49",
+      "filhos": "sim",
+      "viajou_para_fora": "nao",
+      "nasceu_em_outro_estado_ou_cidade": "nao"
+    },
+    {
+      "nome": "Roselin Silvana",
+      "faixa_idade": "60-69",
+      "filhos": "sim",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "nao"
+    },
+    {
+      "nome": "Sirley",
+      "faixa_idade": "60-69",
+      "filhos": "sim",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "nao"
+    },
+    {
+      "nome": "Tatiele Chicora",
+      "faixa_idade": "30-49",
+      "filhos": "nao",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "sim"
+    },
+    {
+      "nome": "Vinicius Pereira",
+      "faixa_idade": "20-29",
+      "filhos": "nao",
+      "viajou_para_fora": "nao",
+      "nasceu_em_outro_estado_ou_cidade": "sim"
+    },
+    {
+      "nome": "Viviane Remes",
+      "faixa_idade": "30-49",
+      "filhos": "sim",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "nao"
+    },
+    {
+      "nome": "Yara Cristina Hammes",
+      "faixa_idade": "30-49",
+      "filhos": "sim",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "nao"
+    },
+    {
+      "nome": "Débora",
+      "faixa_idade": "30-49",
+      "filhos": "sim",
+      "viajou_para_fora": "nao",
+      "nasceu_em_outro_estado_ou_cidade": "sim"
+    },
+    {
+      "nome": "Helen Simone",
+      "faixa_idade": "30-49",
+      "filhos": "nao",
+      "viajou_para_fora": "sim",
+      "nasceu_em_outro_estado_ou_cidade": "sim"
+    },
+    {
+      "nome": "André Amaral",
+      "faixa_idade": "20-29",
+      "filhos": "sim",
+      "viajou_para_fora": "nao",
+      "nasceu_em_outro_estado_ou_cidade": "sim"
+    }
+  ]
+}

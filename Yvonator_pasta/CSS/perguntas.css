@@ -1,0 +1,166 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(../IMG/background.png);
+    font-family: 'Irish Grover', cursive;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.voltar{
+    font-family: 'Irish Grover', cursive;
+    position: absolute;
+    font-weight: 300;
+    padding: 15px;
+    width: 12vw;
+    background-color: #ffbe3b;
+    color: #fdfdfd;
+    -webkit-text-stroke: 5px #502700;
+    paint-order: stroke fill;
+    font-size: 1.6rem;
+    border-radius: 10px;
+    left: 4vw;
+    top: 5vh;
+    border: 5px;
+    transition: 0.5s;
+}
+
+.voltar:hover{
+    cursor: pointer;
+    background-color: #b6882d;
+
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    
+}
+
+.container img{
+    margin-top: 3vh;
+    width: 25vw;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-right: 6vw;
+    margin-top: 25vh;
+}
+
+.texto-svg {
+      width: 100%;
+      max-width: 900px;
+      height: auto;
+      overflow: visible;
+    
+    }
+
+
+    /* Estilização do texto dentro do SVG */
+    .texto-estilizado {
+     font-size: 120px;
+      font-family: 'Irish Grover', cursive;
+      font-weight: bold;
+      letter-spacing: 2px;
+      
+      /* Preenchimento com o gradiente dourado suave */
+      fill: url(#gradiente-dourado);
+      
+      /* Borda preta por fora sem invadir a letra */
+      stroke: #000000;
+      stroke-width: 3.5px;
+      stroke-linejoin: round;
+      paint-order: stroke fill;
+      
+      /* Sombra projetada para dar profundidade */
+       paint-order: stroke fill;
+    text-shadow: 3px 3px 0 #a52222,
+                 5px 5px 0 #000;
+    }
+
+
+.info p{
+    color: #ffbe3b;
+    -webkit-text-stroke: 3px #502700;
+    paint-order: stroke fill;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+
+form{
+    margin-bottom: 20vh;
+    background-color: #b88cc98c;
+    width: 45vw;
+    height: 45vh;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.fundoResposta{
+    background-color: #fdfdfd81;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    transition: 0.5s;
+    
+
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+}
+
+.fundoResposta:hover{
+    background-color: #8f8080;
+    cursor: pointer;
+
+}
+
+label:hover, input:hover{
+    cursor: pointer;
+
+}
+/* V8: feedback de seleção e proteção contra toques repetidos. */
+.fundoResposta.selecionada {
+    background-color: #ffbe3b;
+    transition: background-color 120ms ease;
+}
+
+
+form[aria-busy="true"] .fundoResposta,
+form[aria-busy="true"] .fundoResposta input {
+    cursor: wait;
+}
+
+
+form[aria-busy="true"] .fundoResposta:not(.selecionada) {
+    background-color: #fdfdfd81;
+    opacity: .8;
+}
+
+
+.nova-pergunta {
+    animation: aparecer-pergunta 300ms ease-out;
+}
+@keyframes aparecer-pergunta {
+    from { opacity: .25; }
+    to { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .nova-pergunta { animation: none; }
+    .fundoResposta { transition: none; }
+}

@@ -1,0 +1,112 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(../IMG/background.png);
+    font-family: 'Irish Grover', cursive;
+    background-size: cover;
+}
+
+.voltar{
+    font-family: 'Irish Grover', cursive;
+    position: absolute;
+    font-weight: 300;
+    padding: 15px;
+    width: 12vw;
+    background-color: #ffbe3b;
+    color: #fdfdfd;
+    -webkit-text-stroke: 5px #502700;
+    paint-order: stroke fill;
+    font-size: 1.6rem;
+    border-radius: 10px;
+    left: 4vw;
+    top: 5vh;
+    border: 5px;
+    transition: 0.5s;
+}
+
+.voltar:hover{
+    cursor: pointer;
+    background-color: #b6882d;
+
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    
+}
+
+.container img{
+    width: 30vw;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-right: 6vw;
+    margin-top: 25vh;
+}
+
+.texto-svg {
+      width: 100%;
+      max-width: 900px;
+      height: auto;
+      overflow: visible;
+    
+    }
+
+
+    /* Estilização do texto dentro do SVG */
+    .texto-estilizado {
+      font-family: 'Irish Grover', cursive;
+      font-weight: bold;
+      letter-spacing: 2px;
+      
+      /* Preenchimento com o gradiente dourado suave */
+      fill: url(#gradiente-dourado);
+      
+      /* Borda preta por fora sem invadir a letra */
+      stroke: #000000;
+      stroke-width: 3.5px;
+      stroke-linejoin: round;
+      paint-order: stroke fill;
+      
+      /* Sombra projetada para dar profundidade */
+       paint-order: stroke fill;
+    text-shadow: 3px 3px 0 #a52222,
+                 5px 5px 0 #000;
+    }
+
+    .um{
+        font-size: 185px;
+    }
+
+    .dois{
+        font-size: 85px;
+    }
+
+
+.botao button{
+     margin-left: 5vw;
+    background-color: #ffbe3b;
+    font-family: 'Irish Grover', cursive;
+    color: white;
+    -webkit-text-stroke: 5px #502700;
+    paint-order: stroke fill;
+   border: none;
+    margin-top: 3vh;
+    border-radius: 20px;
+    font-size: 2rem;
+    width: 30vw;
+    height: 15vh;
+    transition: 0.5s;
+}
+
+.botao button:hover{
+    background: #b6882d;
+    cursor: pointer;
+}

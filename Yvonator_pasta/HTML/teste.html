@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário</title>
+</head>
+
+<body>
+
+    <div id="pergunta"></div>
+    <div id="respostas"></div>
+
+    <button id="confirmar">Confirmar</button>
+
+    <script>
+
+        // Todas as perguntas do questionário
+        const perguntas = [
+            {
+                pergunta: "Qual dessas atividades você prefere?",
+                respostas: [
+                    "Programar",
+                    "Desenhar",
+                    "Escrever",
+                    "Trabalhar com pessoas"
+                ]
+            },
+
+            {
+                pergunta: "Qual ambiente de trabalho você prefere?",
+                respostas: [
+                    "Escritório",
+                    "Home office",
+                    "Ao ar livre",
+                    "Laboratório"
+                ]
+            },
+
+            {
+                pergunta: "Qual dessas matérias você mais gosta?",
+                respostas: [
+                    "Matemática",
+                    "Português",
+                    "Biologia",
+                    "História"
+                ]
+            }
+        ];
+
+
+        // Pergunta atual
+        let perguntaAtual = 0;
+
+
+        // Recupera as respostas salvas ou cria um array vazio
+        let respostasUsuario = JSON.parse(
+            localStorage.getItem("respostasQuestionario")
+        ) || [];
+
+
+        // Elementos HTML
+        const perguntaElemento = document.getElementById("pergunta");
+        const respostasElemento = document.getElementById("respostas");
+        const confirmar = document.getElementById("confirmar");
+
+
+        // Mostra a pergunta atual
+        function mostrarPergunta() {
+
+            const pergunta = perguntas[perguntaAtual];
+
+            perguntaElemento.textContent = pergunta.pergunta;
+
+            respostasElemento.innerHTML = "";
+
+            pergunta.respostas.forEach((resposta, index) => {
+
+                const label = document.createElement("label");
+
+                label.innerHTML = `
+                    <input 
+                        type="radio" 
+                        name="resposta"
+                        value="${resposta}"
+                    >
+                    ${resposta}
+                `;
+
+                respostasElemento.appendChild(label);
+                respostasElemento.appendChild(document.createElement("br"));
+            });
+        }
+
+
+        // Quando o usuário confirmar a resposta
+        confirmar.addEventListener("click", () => {
+
+            const respostaSelecionada = document.querySelector(
+                'input[name="resposta"]:checked'
+            );
+
+
+            // Impede continuar sem selecionar uma resposta
+            if (!respostaSelecionada) {
+                alert("Selecione uma resposta.");
+                return;
+            }
+
+
+            // Salva a resposta
+            respostasUsuario.push({
+                pergunta: perguntas[perguntaAtual].pergunta,
+                resposta: respostaSelecionada.value
+            });
+
+
+            // Salva no localStorage
+            localStorage.setItem(
+                "respostasQuestionario",
+                JSON.stringify(respostasUsuario)
+            );
+
+
+            // Vai para a próxima pergunta
+            perguntaAtual++;
+
+
+            // Verifica se terminou
+            if (perguntaAtual >= perguntas.length) {
+
+                perguntaElemento.textContent = "Questionário concluído!";
+                respostasElemento.innerHTML = "";
+                confirmar.style.display = "none";
+
+                console.log(respostasUsuario);
+
+                return;
+            }
+
+
+            // Mostra a próxima pergunta
+            mostrarPergunta();
+
+        });
+
+
+        // Inicia o questionário
+        mostrarPergunta();
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+Coloque aqui apenas as fotografias autorizadas dos professores.
+Consulte LISTA_DE_FOTOS.md na raiz do projeto para saber o nome correto.
+Exemplo: professor_01.jpg (ou professor_01.webp, professor_01.jpeg, professor_01.png).
+Use apenas um arquivo por ID, nomes em letras minúsculas e sem espaços.
+Não é preciso editar o código ou importar a base de dados novamente.
+Sem foto, o jogo mostra automaticamente a imagem padrão.
